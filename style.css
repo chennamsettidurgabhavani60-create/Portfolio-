@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Durga Bhavani chennamsetti Portfolio</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+html{scroll-behavior:smooth;}
+body{background:#f4f4f4;color:#333;}
+
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+}
+
+.btn{
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#6a11cb;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#6a11cb;
+    color:white;
+    border:2px solid white;
+}
+
+section{
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+h2{
+    color:#6a11cb;
+    margin-bottom:10px;
+}
+
+ul{padding-left:20px;}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Hi, I'm Durga Bhavani Chennamsetti</h1>
+    <p>Aspiring Web Developer & Programmer</p>
+    <a href="#about" class="btn">Scroll Down ↓</a>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am passionate about web development and programming. I enjoy learning new technologies and building creative projects.I am a dedicated and enthusiastic professional with a strong interest in technology, problem-solving, and personal growth. I enjoy working on challenging projects that help me expand my skills and contribute meaningful solutions. My goal is to continuously learn, innovate, and make a positive impact through my work.</p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>C Programming</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Achievements</h2>
+    <ul>
+        <li>C Essential Certificate</li>
+        <li>Python Essential Certificate</li>
+        <li>Pearson MePro Certificate</li>
+        <li>Hackathon Participant</li>
+        <li>Coursera Certification</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: chennamsettidurgabhavani60@gmail.com</p>
+    <p>GitHub: github.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Durga Bhavani Chennamsetti</p>
+</footer>
+
+</body>
+</html>
